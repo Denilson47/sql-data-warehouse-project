@@ -56,6 +56,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Scope:** Focus on the latest dataset only; historization of data is not required.
 - **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
+---
+
 ### BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
@@ -68,7 +70,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
+For more details, refer to [requirements.txt](requirements.txt).
 
 ---
 
@@ -88,10 +90,19 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 ## 📂 Repository Structure
 
-```text
+~~~text
 sql-data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│   ├── source_crm/                     # CRM source data
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
+│   │
+│   └── source_erp/                     # ERP source data
+│       ├── CUST_AZ12.csv
+│       ├── LOC_A101.csv
+│       └── PX_CAT_G1V2.csv
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── ETL.png                         # ETL process diagram
@@ -115,9 +126,13 @@ sql-data-warehouse-project/
 │   ├── quality_checks_gold.sql         # Gold layer data quality checks
 │   └── quality_checks_silver.sql       # Silver layer data quality checks
 │
-├── README.md                           # Project overview and instructions
+├── .gitignore                          # Files and directories to be ignored by Git
 ├── LICENSE                             # License information for the repository
-└── .gitignore                          # Files and directories to be ignored by Git
+├── README.md                           # Project overview and instructions
+└── requirements.txt                    # Project requirements and dependencies
+~~~
+
+---
 
 ## 🧪 Data Quality & Testing
 
@@ -146,13 +161,13 @@ The project documentation contains detailed information about the architecture, 
 
 Available documentation includes:
 
-- Data Catalog
-- Naming Conventions
-- Data Architecture
-- Data Flow
-- Data Integration
-- Data Model
-- ETL Documentation
+- [Data Catalog](docs/data_catalog.md)
+- [Naming Conventions](docs/naming_conventions.md)
+- [Data Architecture](docs/data_architecture.png)
+- [Data Flow](docs/data_flow.png)
+- [Data Integration](docs/data_integration.png)
+- [Data Model](docs/data_model.png)
+- [ETL Documentation](docs/ETL.png)
 
 ---
 
