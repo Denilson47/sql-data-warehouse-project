@@ -119,50 +119,58 @@ sql-data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 └── .gitignore                          # Files and directories to be ignored by Git
 
-🧪 Data Quality & Testing
+## 🧪 Data Quality & Testing
 
 Data quality checks are implemented to ensure that the data meets the expected standards before being used for analytics.
 
 Testing includes checks for:
 
-Data completeness
-Data consistency
-Data accuracy
-Duplicate records
-Null values
-Referential integrity
-Valid business rules
+- Data completeness
+- Data consistency
+- Data accuracy
+- Duplicate records
+- Null values
+- Referential integrity
+- Valid business rules
 
-The quality-check scripts are located in the tests/ directory:
+The quality-check scripts are located in the `tests/` directory:
 
-quality_checks_silver.sql
-quality_checks_gold.sql
-📚 Documentation
+- `quality_checks_silver.sql`
+- `quality_checks_gold.sql`
+
+---
+
+## 📚 Documentation
 
 The project documentation contains detailed information about the architecture, data flow, data integration, data model, data catalog, ETL process, and naming conventions.
 
 Available documentation includes:
 
-Data Catalog
-Naming Conventions
-Data Architecture
-Data Flow
-Data Integration
-Data Model
-ETL Documentation
-🛡️ License
+- Data Catalog
+- Naming Conventions
+- Data Architecture
+- Data Flow
+- Data Integration
+- Data Model
+- ETL Documentation
+
+---
+
+## 🛡️ License
 
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
-👨‍💻 About Me
+---
 
-Hi there! I'm Denilson Pius, an aspiring Data Engineer passionate about data engineering, data warehousing, and analytics.
+## 👨‍💻 About Me
+
+Hi there! I'm **Denilson Pius**, an aspiring Data Engineer passionate about data engineering, data warehousing, and analytics.
 
 I'm currently developing my skills in SQL, Microsoft SQL Server, data warehousing, ETL pipelines, data modeling, and data analytics through practical projects and hands-on learning.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-LinkedIn
-GitHub
-SQL Data Warehouse Project
-Notion Project
+- [LinkedIn](https://www.linkedin.com/in/denilsonpius/)
+- [GitHub](https://github.com/Denilson47)
+- [SQL Data Warehouse Project](https://github.com/Denilson47/sql-data-warehouse-project)
+- [Notion Project](https://app.notion.com/p/piusdenilson/SQL-Data-Warehouse-Project-3b98d989ad8880b48f85e2aa7fa0f6e2?source=copy_link)
