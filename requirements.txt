@@ -1,0 +1,14 @@
+# SQL Server Data Warehouse Project Requirements
+# ================================================
+
+# Database
+Microsoft SQL Server Express (2019 or later)
+SQL Server Management Studio (SSMS)
+
+# Version Control
+Git
+GitHub Account
+
+# Documentation & Design
+Draw.io
+Notion
