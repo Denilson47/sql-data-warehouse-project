@@ -1,0 +1,21 @@
+# SQL Server
+*.bak
+*.trn
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Environment and credential files
+.env
+*.env
+credentials.json
