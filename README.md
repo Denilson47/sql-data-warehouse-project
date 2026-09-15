@@ -30,13 +30,13 @@ This project involves:
 
 Everything is for Free!
 
-- **Datasets:** Access to the project dataset (csv files).
-- **SQL Server Express:** Lightweight server for hosting your SQL database.
-- **SQL Server Management Studio (SSMS):** GUI for managing and interacting with databases.
-- **Git Repository:** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **DrawIO:** Design data architecture, models, flows, and diagrams.
-- **Notion:** All-in-one tool for project management and organization.
-- **Notion Project Steps:** Access to All Project Phases and Tasks.
+- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[SQL Server Express](https://www.microsoft.com/en/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/Denilson47/sql-data-warehouse-project):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://app.diagrams.net/):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
+- **[Notion Project Steps](https://app.notion.com/p/piusdenilson/SQL-Data-Warehouse-Project-3b98d989ad8880b48f85e2aa7fa0f6e2?source=copy_link):** Access to All Project Phases and Tasks.
 
 ---
 
@@ -70,7 +70,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to [requirements.txt](requirements.txt).
+For more details, refer to [requirements.md](docs/requirements.md).
 
 ---
 
@@ -115,7 +115,8 @@ sql-data-warehouse-project/
 │   ├── data_integration.png            # Project data integration diagram
 │   ├── data_model.drawio               # Draw.io file for data models (star schema)
 │   ├── data_model.png                  # Project data model diagram
-│   └── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   └── requirements.md                 # Detailed project requirements and specifications
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -157,7 +158,7 @@ The quality-check scripts are located in the `tests/` directory:
 
 ## 📚 Documentation
 
-The project documentation contains detailed information about the architecture, data flow, data integration, data model, data catalog, ETL process, and naming conventions.
+The project documentation contains detailed information about the architecture, data flow, data integration, data model, data catalog, ETL process, naming conventions, and project requirements.
 
 Available documentation includes:
 
@@ -168,6 +169,7 @@ Available documentation includes:
 - [Data Integration](docs/data_integration.png)
 - [Data Model](docs/data_model.png)
 - [ETL Documentation](docs/ETL.png)
+- [Project Requirements](docs/requirements.md)
 
 ---
 
@@ -187,5 +189,3 @@ Let's stay in touch! Feel free to connect with me on the following platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/denilsonpius/)
 - [GitHub](https://github.com/Denilson47)
-- [SQL Data Warehouse Project](https://github.com/Denilson47/sql-data-warehouse-project)
-- [Notion Project](https://app.notion.com/p/piusdenilson/SQL-Data-Warehouse-Project-3b98d989ad8880b48f85e2aa7fa0f6e2?source=copy_link)
